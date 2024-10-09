@@ -66,7 +66,7 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_main)
 
         imageView = findViewById(R.id.imageView2)
-        captureButton = findViewById(R.id.pic) // Убедитесь, что идентификатор кнопки соответствует
+        captureButton = findViewById(R.id.pic)
         saveButton = findViewById(R.id.savetogal)
 
         captureButton.setOnClickListener {
